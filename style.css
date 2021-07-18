@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center
+}
+
+#profile {
+    width: 185px;
+    border-radius: 70%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    height: 300px;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 100px;
+    color: darkcyan;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(orange 0%, purple 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+
+
+}
+
+.inner-div {
+    display: table-cell;
+    position: relative;
+}
+
+.Menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+
+
+}
+
+.links {
+
+    color: darkturquoise;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+
+    display: inline;
+}
+
+.links:hover {
+    font-size: 30px;
+    background-color: chartreuse;
+}
+
+.line {
+    height: 7px;
+    width: 80px;
+    background-color: darkslategray;
+    margin: auto;
+
+
+}
+
+.Name {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+html{
+    scroll-behavior: smooths
+}
